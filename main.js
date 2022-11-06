@@ -35,13 +35,13 @@ function my_keydown(e)
 		}
 
 		else if(keyPressed >=48 && keyPressed<=57){
-			numkey();
+			numberkey();
 			document.getElementById("d1").innerHTML ="You Pressed The Number Key";
 			console.log("numkey");
 		}
 
 		else if(keyPressed >=37 && keyPressed<=40){
-			Arrkey();
+			Arrowkey();
 			document.getElementById("d1").innerHTML ="You Pressed The Arrow Key";
 			console.log("Arrkey");
 		}
@@ -68,18 +68,18 @@ function alphabetkey()
 }
 function numberkey()
 {
-	img_image="numkey";
+	img_image="numkey.png";
 	add();
 
 }
-function arrowkey()
+function Arrowkey()
 {
-	img_image="Arrkey";
+	img_image="Arrkey.png";
 	add();
 }
-function specialkey()
+function spkey()
 {
-	img_image="spkey";
+	img_image="spkey.png";
 	add();
 }
 function otherkey()
@@ -87,4 +87,3 @@ function otherkey()
 	img_image="otherkey.png";
 	add();
 }
-	
